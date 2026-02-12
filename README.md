@@ -10,7 +10,7 @@ Serverless AI News Curator: A daily LLMOps digest bot using local LLMs for intel
   - Prepared **ArXiv** integration for research paper tracking.
 
 ## 🛠️ Tech Stack
-- **Language:** Python 3.12+
+- **Language:** Python 3.12+  
 - **APIs:** YouTube Data API, Telegram Bot API
 - **Libraries:** `feedparser`, `python-dotenv`, `google-api-python-client`
 - **Infrastructure:** GitHub Actions (Planned for automation)
