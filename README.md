@@ -10,7 +10,7 @@ Serverless AI News Curator: A daily LLMOps digest bot using local LLMs for intel
   - Prepared **ArXiv** integration for research paper tracking.
 
 ## 🛠️ Tech Stack
-- **Language:** Python 3.12+
+- **Language:** Python 3.12+  
 - **APIs:** YouTube Data API, Telegram Bot API
 - **Libraries:** `feedparser`, `python-dotenv`, `google-api-python-client`
 - **Infrastructure:** GitHub Actions (Planned for automation)
@@ -19,12 +19,9 @@ Serverless AI News Curator: A daily LLMOps digest bot using local LLMs for intel
 ```text
 ai-news-curator/
 ├── src/
-│   ├── scrapers/
-│   │   ├── youtube_scraper.py # YouTube Data API v3 integration
-│   │   ├── rss_scraper.py     # Universal RSS Scraper (Medium/Blogs)
-│   │   └── arxiv_scraper.py   # ArXiv research paper tracking
-│   ├── processor.py           # LLM summarization engine (Pending)
-│   └── telegram_bot.py        # Notification delivery
-├── .env                       # Secrets (Not committed)
-└── main.py                    # Core orchestrator
+│   ├── scrapers/          # Source-specific scraping logic
+│   ├── processor.py       # LLM summarization engine (Pending)
+│   └── telegram_bot.py    # Notification delivery
+├── .env                   # Secrets (Not committed)
+└── main.py                # Core orchestrator
 ```
