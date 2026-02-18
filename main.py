@@ -1,6 +1,7 @@
 import feedparser
 from src.processor import summarize_article
 from src.processor import create_markdown_report
+from src.cleanup import delete_old_reports
 
 # A few tech RSS feeds for testing
 FEEDS = [
@@ -8,6 +9,10 @@ FEEDS = [
 ]
 
 def main():
+    
+    print("🗑️ Deleting files older than 14 days...")
+    delete_old_reports(days=14)
+    
     print("🚀 Hermes is fetching your news...")
 
     all_summaries = []
