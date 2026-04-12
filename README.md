@@ -7,7 +7,7 @@ Serverless AI News Curator: A daily LLMOps digest bot using local LLMs for intel
 - **Environment Setup:** Configured a secure `.venv` virtual environment and `.env` for credential management.
 - **Data Ingestion:** - Integrated **YouTube Data API v3** for creator-specific monitoring.
   - Built a **Universal RSS Scraper** for Medium and technical blogs.
-  - Prepared **ArXiv** integration for research paper tracking.
+  - Prepared **ArXiv** integration for research paper tracking. 
 
 ## 🛠️ Tech Stack
 - **Language:** Python 3.12+  
